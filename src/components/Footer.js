@@ -17,7 +17,7 @@ export const Footer = () => {
             </svg>
 
             {/* Hidden Text */}
-            <div>Hidden</div>
+            <div className="text-green-700">Hidden</div>
 
             {/* Footer Text */}
             <div className="text-white text-center text-xl font-bold">Wanna Contribute? Check out <a

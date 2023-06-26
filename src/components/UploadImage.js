@@ -22,7 +22,7 @@ const UploadImage = () => {
         <div>
             <input type="file" accept="image/*" onChange={handleImageUpload} />
             {selectedImage && (
-                <div>
+                <div className='center'>
                     <img src={selectedImage} alt="Selected" style={styles.selectedImage} />
                 </div>
             )}
@@ -36,7 +36,7 @@ const styles = {
         height: 'auto',
         borderRadius: '10px',
         boxShadow: '2px 2px 5px rgba(0, 0, 0, 0.3)',
-        margin: '30px 20px',
+        margin: '10px 30px 10px 5px'
     },
 };
 
