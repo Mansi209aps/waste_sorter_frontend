@@ -2,6 +2,7 @@ import React from "react";
 
 export const Footer = () => {
     return (
+        // Footer Design
         <div className="relative mt-16 bg-green-700">
             <svg
                 className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-green-700"
@@ -15,7 +16,10 @@ export const Footer = () => {
                 <div className="text-white"> Wanna contribute?</div>
             </svg>
 
+            {/* Hidden Text */}
             <div>Hidden</div>
+
+            {/* Footer Text */}
             <div className="text-white text-center text-xl font-bold">Wanna Contribute? Check out <a
                 href="https://github.com/yactouat/waste_sorter_demo/issues"
                 className="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400"
