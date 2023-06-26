@@ -20,6 +20,7 @@ export const Navbar = () => {
                                 Strasbourg waste sorter
                             </span>
                         </a>
+
                         {/* <div class="lg:hidden">
                         <button
                             aria-label="Open Menu"

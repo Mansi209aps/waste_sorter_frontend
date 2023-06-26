@@ -1,4 +1,6 @@
 import { React } from "react";
+import img from './waste_sorting_strasbourg.png'
+import UploadImage from "./UploadImage";
 
 export const Header = () => {
     return (
@@ -38,6 +40,7 @@ export const Header = () => {
                     </span>{' '}
                     IMAGE OF TRASH ITEM TO UPLOAD
                 </h2>
+                <UploadImage />
                 <p className="text-base text-gray-700 md:text-lg">
                     this is an early demo, so the model may be wrong a lot of times
                 </p>
@@ -48,7 +51,7 @@ export const Header = () => {
                 <div className="relative w-full transition-shadow duration-300 hover:shadow-xl">
                     <img
                         className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96"
-                        src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        src={img}
                         alt=""
                     />
                     {/* <a
